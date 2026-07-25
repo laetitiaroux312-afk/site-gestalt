@@ -67,3 +67,29 @@
 .benefit-item p {
   color: #6A7F5F; /* kaki */
 }
+/* STYLES GÉNÉRAUX POUR TOUTES LES PAGES */
+body {
+  background-color: #FAF8F4; /* blanc cassé */
+  color: #55694C; /* kaki foncé */
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+h1, h2 {
+  color: #6A7F5F; /* kaki */
+  margin-bottom: 20px;
+}
+
+p {
+  color: #8C6F5A; /* marbre marron */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
