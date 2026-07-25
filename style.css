@@ -1,0 +1,69 @@
+/* PALETTE DE TON CABINET
+   kaki : #6A7F5F
+   kaki foncé : #55694C
+   vert très pâle : #E8F0E6
+   marbre marron : #8C6F5A
+   blanc cassé : #FAF8F4
+*/
+
+/* SECTION ACCUEIL */
+.hero {
+  background-color: #E8F0E6; /* vert très pâle */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #6A7F5F; /* kaki */
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #8C6F5A; /* marbre marron */
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* BOUTON CTA */
+.cta-button {
+  background-color: #6A7F5F; /* kaki */
+  color: #FAF8F4; /* blanc cassé */
+  padding: 14px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #55694C; /* kaki foncé */
+}
+
+/* SECTION BENEFICES */
+.benefits {
+  background-color: #FAF8F4; /* blanc cassé */
+  padding: 60px 20px;
+}
+
+.benefits h2 {
+  text-align: center;
+  color: #6A7F5F; /* kaki */
+  margin-bottom: 40px;
+}
+
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.benefit-item h3 {
+  color: #8C6F5A; /* marbre marron */
+  margin-bottom: 10px;
+}
+
+.benefit-item p {
+  color: #6A7F5F; /* kaki */
+}
