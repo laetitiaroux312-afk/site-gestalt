@@ -89,6 +89,26 @@ p {
 ul {
   margin-left: 20px;
 }
+/* MENU DE NAVIGATION */
+.menu {
+  background-color: #FAF8F4;
+  padding: 15px 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #D8D4C8;
+}
+
+.menu a {
+  color: #6A7F5F;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.menu a:hover {
+  color: #55694C;
+}
+
 
 li {
   margin-bottom: 10px;
