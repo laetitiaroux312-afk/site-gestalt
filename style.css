@@ -70,10 +70,14 @@
 /* STYLES GÉNÉRAUX POUR TOUTES LES PAGES */
 body {
   background-color: #FAF8F4; /* blanc cassé */
+  background-image: radial-gradient(rgba(0,0,0,0.03) 1px, transparent 1px);
+  background-size: 3px 3px;
+
   color: #55694C; /* kaki foncé */
   font-family: Arial, sans-serif;
   padding: 40px;
 }
+
 
 h1, h2 {
   color: #6A7F5F; /* kaki */
