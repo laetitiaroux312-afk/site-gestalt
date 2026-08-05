@@ -112,6 +112,27 @@ ul {
 .menu a:hover {
   color: #55694C;
 }
+.hero {
+    /* tu dois déjà avoir un fond vert ici, on le garde */
+    padding: 2rem;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero-image img {
+    width: 250px;        /* tu peux ajuster */
+    height: auto;
+    border-radius: 8px;  /* pour des bords légèrement arrondis */
+    display: block;
+}
+
+.hero-text {
+    flex: 1;
+}
 
 
 li {
